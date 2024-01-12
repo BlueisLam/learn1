@@ -1,0 +1,87 @@
+.personal-info {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .row {
+      display: flex;
+  
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+  
+      .left,
+      .right {
+        width: 100%;
+      }
+      .left,
+      .right {
+        h2 {
+          border-left: 7px solid #aeb8b0;
+          padding-left: 10px;
+        }
+      }
+      @media (min-width: 769px) {
+        .left {
+          width: 66.66667%;
+          padding-right: 50px;
+          border-right: 1px solid #858585;
+        }
+  
+        .right {
+          width: 33.33333%; 
+          padding-left: 50px;
+        }
+      }
+    }
+  
+    .experience {
+      .job {
+        margin-bottom: 35px;
+  
+        h2 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+          font-weight: 100;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  
+    .information,
+    .education {
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      li {
+        margin-bottom: 10px;
+        font-size: 1rem;
+      }
+  
+      .edu {
+        h3 {
+          margin-bottom: 5px;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
