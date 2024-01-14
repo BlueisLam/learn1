@@ -9,21 +9,35 @@
     padding: 30px 60px;
     display: flex;
     justify-content: space-around;
+    .hit-me{
+      font-size: 40px
+    }
     h2 {
-      font-family: var(--font-family-Barlow);
+      // font-family: var(--font-family-Barlow);
+      font-weight: 500;
+    text-transform: none;
+    font-size: 1.79em;
+    line-height: 1.2em;
+    font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif !important;
     }
   }
+  @media (max-width: 769px) {
 
-  .footer-section {
-    flex: 1;
-    margin-right: 20px;
+    .footer-content {
+      flex-direction: column;
+    }
   }
 
   ul {
     list-style: none;
     padding: 0;
     li {
-      padding-bottom: 10px;
+      // padding-bottom: 10px;
+      padding-top: 7px;
+      padding-right: 0px;
+      padding-bottom: 7px;
+      padding-left: 0px;
+      border-radius: 3px;
     }
   }
 
@@ -59,4 +73,58 @@
     transform: translateX(0);
     color: #000;
   }
+  .subscribe-form {
+    display: flex;
+    margin-top: 10px;
+  position: relative;
+  border-bottom: 30px;
+  // box-shadow: 0px 5px 5px var(--black);
+    input {
+      flex: 2;
+      padding: 10px;
+      border: none;
+      border-bottom: 4px 0 0 4px;
+    font-family: var(--font-family-PTsan);
+
+    }
+  
+    // button {
+    //   flex: 1;
+    //   padding: 10px;
+    //   border: none;
+    //   border-radius: 0 4px 4px 0;
+    //   background-color: #e44d26;
+    //   color: #fff;
+    //   cursor: pointer;
+    // }
+    .qodef-cf7-one-line-email-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      padding-right: 20px;
+      background: 0 0!important;
+      border: 0!important;
+      color: inherit!important;
+      svg {
+        fill: currentColor;
+        transition: transform .45s cubic-bezier(.23,.62,.19,.93);
+      }}
+  }
+  .logo {
+    display: flex !important;
+      h1 {
+        animation: slidein 3s linear 1s forwards;
+        font-family: "Salsa", cursive !important;
+      }
+      display: inline-flex;
+      .symbols-logo {
+        font-size: 50px;
+        justify-content: center;
+        margin-top: 11px;
+      }
+    }
 }

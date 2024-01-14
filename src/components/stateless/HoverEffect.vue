@@ -48,7 +48,7 @@ export default {
   cursor: pointer;
   position: relative;
   display: inline-block;
-  width: 150%;
+  // width: 150%;
   height: 30px;
   overflow: hidden;
   svg {
@@ -61,7 +61,7 @@ export default {
   .qodef-menu-item-brush {
     position: absolute;
     left: 0;
-    bottom: 3px;
+    bottom: 5px;
     width: 100%;
     justify-content: center;
   }

@@ -11,10 +11,11 @@
         /> -->
       </div>
       <div class="navbar-content">
-        <router-link to="/"><HoverEffect>Home</HoverEffect></router-link>
-        <router-link to="/about"><HoverEffect>About</HoverEffect></router-link>
-        <router-link to="/jobs"><HoverEffect>Jobs</HoverEffect></router-link>
-        <router-link to="/idols"><HoverEffect>Idols</HoverEffect></router-link>
+        <HoverEffect><router-link to="/">Home</router-link></HoverEffect>
+        <HoverEffect><router-link to="/about">About</router-link></HoverEffect>
+        <HoverEffect><router-link to="/jobs">Jobs</router-link></HoverEffect>
+        <HoverEffect><router-link to="/idols">Idols</router-link></HoverEffect>
+        <HoverEffect><router-link to="/idols">My Shop</router-link></HoverEffect>
       </div>
       <div class="navbar-right-section">
         <span class="material-symbols-outlined"> menu </span>
@@ -22,14 +23,18 @@
     </div>
   </nav>
   <router-view />
+  <Footer></Footer>
 </template>
 <script>
 import HoverEffect from '@/components/stateless/HoverEffect.vue';
-
+import Footer from "@/components/Footer/Footer.vue";
+import ActiveLinkMixin from '@/mixins/ActiveLinkMixin';
 export default {
   components: {
     HoverEffect,
+    Footer
   },
+  mixins: [ActiveLinkMixin],
 };
 </script>
 <style lang="scss">

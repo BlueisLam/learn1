@@ -1,0 +1,24 @@
+.ukicon {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  color: #696969;
+  .ukicon-items {
+    display: flex;
+    .uk-animation-toggle {
+      padding: 20px;
+      .ukicon-item {
+        color: #696969; // Màu chữ cho icon, thay đổi tùy ý
+        transition: color 0.3s ease; // Thêm hiệu ứng màu chữ chuyển động
+
+        &:hover {
+          color: #353535;
+        }
+      }
+
+      .ukicon-item svg {
+        fill: currentColor;
+      }
+    }
+  }
+}
