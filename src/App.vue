@@ -22,19 +22,21 @@
       </div>
     </div>
   </nav>
+  <YouAreHere />
   <router-view />
   <Footer></Footer>
 </template>
 <script>
 import HoverEffect from '@/components/stateless/HoverEffect.vue';
 import Footer from "@/components/Footer/Footer.vue";
-import ActiveLinkMixin from '@/mixins/ActiveLinkMixin';
+import YouAreHere from '@/components/stateless/YouAreHere.vue';
 export default {
   components: {
     HoverEffect,
-    Footer
+    Footer,
+    YouAreHere
   },
-  mixins: [ActiveLinkMixin],
+  // mixins: [ActiveLinkMixin],
 };
 </script>
 <style lang="scss">

@@ -26,7 +26,6 @@
           <span class="material-symbols-rounded symbols-logo"> favorite </span>
           <h1>Toiinee</h1>
         </div>
-        <IconSocial />
       </div>
 
       <div class="footer-section">
@@ -42,8 +41,8 @@
 
       <div class="footer-section">
         <h2>Contact</h2>
-        <p>Ave Fairground 11, New York, United States</p>
-        <p>Email: hello@alex.com</p>
+        <p>43/38 Cong Hoa, Tan Binh, Ho chi Minh city</p>
+        <p>Email: kieu@gmail.com</p>
         <div class="hover-effect">
           Hover me
           <svg
@@ -103,6 +102,7 @@
         </div>
       </div>
     </div>
+    <IconSocial />
   </footer>
 </template>
 

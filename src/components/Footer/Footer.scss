@@ -6,6 +6,9 @@
   padding: 20px;
   font-family: var(--font-family-PTsan) !important;
   .footer-content {
+    .footer-section{
+      padding: 30px 60px;
+    }
     padding: 30px 60px;
     display: flex;
     justify-content: space-around;
@@ -126,5 +129,10 @@
         justify-content: center;
         margin-top: 11px;
       }
+    }
+    .ukicon{
+      margin-left: 70px;
+      justify-content: start;
+      margin-top: 0rem;
     }
 }

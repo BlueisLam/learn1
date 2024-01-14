@@ -26,7 +26,8 @@
       font-size: 6rem;
       margin-bottom: 10px;
       letter-spacing: 1px;
-      font-family: var(--font-family-Barlow);
+      font-family: var(--font-family-Barlow); 
+      // white-space: nowrap;
     }
     h3 {
       font-size: 1.5rem;
@@ -34,6 +35,9 @@
 
       font-family: var(--font-family-PTsan);
       font-weight: 100;
+    }
+    @media (max-width: 1440) {
+      // width: 70%;
     }
   }
   // .ukicon {
