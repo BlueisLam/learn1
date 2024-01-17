@@ -1,0 +1,29 @@
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the To-Do List container */
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-item {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.task-item strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.task-item p {
+  margin: 5px 0;
+}

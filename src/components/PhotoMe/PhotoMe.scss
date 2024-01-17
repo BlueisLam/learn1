@@ -26,7 +26,7 @@
       font-size: 6rem;
       margin-bottom: 10px;
       letter-spacing: 1px;
-      font-family: var(--font-family-Barlow); 
+      font-family: var(--font-family-Barlow);
       // white-space: nowrap;
     }
     h3 {
@@ -36,8 +36,13 @@
       font-family: var(--font-family-PTsan);
       font-weight: 100;
     }
-    @media (max-width: 1440) {
-      // width: 70%;
+  }
+  @media (max-width: 1440px) {
+    .text-me {
+      width: 90%;
+      // top: 100%;
+      left: 5%;
+      text-align: center;
     }
   }
   // .ukicon {
@@ -52,16 +57,16 @@
   //       .ukicon-item {
   //           color: #696969; // Màu chữ cho icon, thay đổi tùy ý
   //           transition: color 0.3s ease; // Thêm hiệu ứng màu chữ chuyển động
-          
+
   //           &:hover {
   //             color: #353535;
   //           }
   //         }
-          
+
   //         .ukicon-item svg {
   //           fill: currentColor;
   //         }
-          
+
   //     }
   //   }
   // }

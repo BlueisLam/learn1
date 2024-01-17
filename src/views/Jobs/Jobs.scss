@@ -1,4 +1,9 @@
+.jobs-container {
+  font-family: var(--font-family-PTsan);
+  color: var(--black);
+}
 .jobs {
+  font-family: var(--font-family-PTsan);
   h2 {
     background: #f4f4f4;
     padding: 20px;
@@ -6,12 +11,206 @@
     margin: 10px auto;
     max-width: 600px;
     cursor: pointer;
-    color: #42b983;
-    &:hover{
-        background: #ddd;
+    color: var(--black);
+    &:hover {
+      background: #ddd;
     }
   }
-  a{
+  a {
     text-decoration: none;
+  }
+}
+.todo-list {
+  font-family: var(--font-family-PTsan);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-item {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.task-item strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.task-item p {
+  margin: 5px 0;
+}
+.monthly-calendar {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  td {
+    cursor: pointer;
+  }
+}
+
+.other-month {
+  color: #aaa;
+}
+.task-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.header-left {
+  padding-right: 15px;
+  width: 70%;
+  // display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  button{
+    width: 20%;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 10px;
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    &:hover{background-color: #353535;}
+  }
+}
+
+.header-right {
+  width: 30%;
+}
+
+.today-box {
+  font-weight: 600;
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.my-tasks {
+  margin-top: 20px;
+}
+
+.my-tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.my-tasks h2 {
+  margin: 0;
+}
+
+.my-tasks a {
+  color: var(--black);
+  font-size: 14px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.weekly-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-box {background-color: #f0f0f0;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  .task-time {
+    width: 70px;
+    padding: 5px;
+    margin-left: 10%;
+    height: fit-content;
+    border-radius: 10px;
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+  }
+  .task-title {
+    width: 70%;
+    font-weight: 600;
+    p
+    {
+      font-weight: lighter;
+      // padding-left: 20px;
+      margin: 4px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .week-days {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .week-days div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    &:last-child {
+      border-right: none;
+    }
+  }
+  
+  .current-day {
+    background-color: var(--black);
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+    border-radius: 5px;
   }
 }
