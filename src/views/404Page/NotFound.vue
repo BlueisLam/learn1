@@ -5,11 +5,11 @@
         <div class="col-sm-12">
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <div class="contant_box_404">
-              <h2 class="h2">Welcome to my website</h2>
+              <h1 class="h2">Welcome to my website</h1>
 <!-- 
               <p>the page you are looking for not avaible!</p> -->
-
-              <a href="/profile" class="link_404">Go to Porfolio</a>
+              <router-link to="/profile"  class="link_404" >Go to Portfolio</router-link>
+              <!-- <a href="/profile" class="link_404">Go to Porfolio</a> -->
             </div>
             <div class="four_zero_four_bg">
               <!-- <h1 class="text-center">404</h1> -->
