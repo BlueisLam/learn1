@@ -7,7 +7,7 @@ import Idols from '../views/Idols/IdolsView.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/profile',
     name: 'home',
     component: HomeView
   },

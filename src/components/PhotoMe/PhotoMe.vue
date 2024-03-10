@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="photo-me">
-      <img src="../../assets/Images/Selina1.png" alt="" />
+      <img src="https://i.pinimg.com/736x/f0/2d/57/f02d57d101aae3bd99042516cd553558.jpg" alt="" />
     </div>
     <div>
       <div class="text-me">

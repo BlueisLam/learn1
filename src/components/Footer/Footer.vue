@@ -41,8 +41,8 @@
 
       <div class="footer-section">
         <h2>Contact</h2>
-        <p>43/38 Cong Hoa, Tan Binh, Ho chi Minh city</p>
-        <p>Email: kieu@gmail.com</p>
+        <p>Hem 43, Cong Hoa, Tan Binh, Ho chi Minh city</p>
+        <p>Email: kieulamngo7@gmail.com</p>
         <div class="hover-effect">
           Hover me
           <svg

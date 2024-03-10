@@ -14,7 +14,10 @@
             alias.
           </h2>
           <button @click="showCreateTaskForm">Create Task</button>
-          <CreateTaskForm v-if="isCreateTaskFormVisible" @task-created="onTaskCreated" />
+          <CreateTaskForm
+            v-if="isCreateTaskFormVisible"
+            @task-created="onTaskCreated"
+          />
         </div>
         <div class="header-right">
           <!-- Box for today's date -->
@@ -40,7 +43,7 @@
                 :key="day"
                 :class="{ 'current-day': isToday(day) }"
               >
-                {{ day }} <br/>
+                {{ day }} <br />
               </div>
             </div>
 
@@ -52,7 +55,8 @@
                   <span>{{ getFormattedTime(task.due_date) }}</span>
                 </div>
                 <div class="task-title">
-                  <span>{{ task.title }}</span>
+                  <span>{{ task.title }}</span
+                  ><span class="material-symbols-rounded"> edit </span>
                   <p>{{ task.description }}</p>
                 </div>
               </li>

@@ -8,8 +8,8 @@
       </div>
     <!-- </router-link> -->
       <div class="navbar-content">
-        <HoverEffect><router-link to="/">Home</router-link></HoverEffect>
-        <HoverEffect><router-link to="/about">MyShop</router-link></HoverEffect>
+        <HoverEffect><router-link to="/profile">Home</router-link></HoverEffect>
+        <HoverEffect><router-link to="/about">About</router-link></HoverEffect>
         <HoverEffect><router-link to="/jobs">Jobs</router-link></HoverEffect>
         <HoverEffect><router-link to="/idols">Idols</router-link></HoverEffect>
       </div>
